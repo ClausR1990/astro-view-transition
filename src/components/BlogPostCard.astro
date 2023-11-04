@@ -1,0 +1,23 @@
+---
+interface Props {
+	title: string
+	image: string
+	link: string
+	transitionName: string
+}
+const { title, image, link, transitionName } = Astro.props
+---
+
+<a href={link}>
+	<article class="border-black border-4 h-full">
+		<img
+			transition:name={`image-${transitionName}`}
+			src={image}
+			class="aspect-video w-full border-black border-b-4"
+			alt={title}
+		/>
+		<div class="p-6">
+			<h2 transition:name={`title-${transitionName}`} class="text-xl">{title}</h2>
+		</div>
+	</article>
+</a>
