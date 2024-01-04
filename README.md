@@ -1,6 +1,6 @@
 # Astro Starter Kit: Minimal
 
-## [Hosted Link](https://movie-world-demo.vercel.app/movie/now_playing)
+## [Hosted Link](https://astro-view-transition-gamma.vercel.app/)
 
 ```sh
 npm create astro@latest -- --template minimal
